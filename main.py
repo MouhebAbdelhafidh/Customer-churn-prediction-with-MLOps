@@ -8,6 +8,7 @@ from pipeline import (
     load_model,
 )
 
+
 def main():
     parser = argparse.ArgumentParser(description="Model training pipeline")
     parser.add_argument("--prepare", action="store_true", help="Prepare data")
@@ -34,6 +35,7 @@ def main():
             return
         evaluate_model(X_test, y_test)
         print("✅ Model evaluation done.")
+
 
 if __name__ == "__main__":
     main()
