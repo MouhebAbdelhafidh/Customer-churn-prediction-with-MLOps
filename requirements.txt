@@ -7,3 +7,4 @@ mlflow
 fastapi
 uvicorn
 joblib
+imbalanced-learn
