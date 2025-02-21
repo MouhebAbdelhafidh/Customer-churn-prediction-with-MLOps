@@ -4,3 +4,8 @@ test_dataset.csv
 test_dataset.csv\357\200\272Zone.Identifier
 training_dataset.csv\357\200\272Zone.Identifier
 __pycache__/pipeline.cpython-38.pyc
+model_saving_task
+model_evaluation_task
+model_training_task
+test_task
+data_preparation_task

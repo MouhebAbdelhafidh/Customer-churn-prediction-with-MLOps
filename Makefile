@@ -58,3 +58,6 @@ help:
 	@echo "  make evaluate      - Evaluate the model"
 	@echo "  make test       - Run unit tests"
 	@echo "  make clean      - Remove the virtual environment and temporary files"
+
+# Executes all the pipeline
+all: install check prepare train evaluate test
