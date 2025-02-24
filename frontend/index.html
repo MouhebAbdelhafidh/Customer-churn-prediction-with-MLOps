@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churn prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Churn prediction</h1>
+        
+        <label for="features">Enter carecteristics :</label>
+        <input type="text" id="features" placeholder="Ex: 3.5, 2.1, 0.8, 5.0">
+        
+        <button onclick="predict()">Predict</button>
+        <p id="result"></p>
+
+        <hr>
+        
+        <button class="retrain" onclick="retrain()">Retrain The Model</button>
+        <p id="retrain-status"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
