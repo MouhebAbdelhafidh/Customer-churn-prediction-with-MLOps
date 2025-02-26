@@ -50,13 +50,13 @@ Elasticsearch was used for logging model metrics, and Kibana was set up to visua
 
 ## Technologies Used
 
-🔬Python (for machine learning and pipeline implementation)
-🔬Pytest (for unit testing)
-🔬FastAPI (for model deployment)
-🔬Docker (for containerization)
-🔬Airflow (for task scheduling and automation)
-🔬MLFlow (for experiment tracking and monitoring)
-🔬Elasticsearch & Kibana (for logging and monitoring metrics)
+🔬Python (for machine learning and pipeline implementation) <br>
+🔬Pytest (for unit testing) <br>
+🔬FastAPI (for model deployment) <br>
+🔬Docker (for containerization) <br>
+🔬Airflow (for task scheduling and automation) <br>
+🔬MLFlow (for experiment tracking and monitoring) <br>
+🔬Elasticsearch & Kibana (for logging and monitoring metrics) <br>
 
 ## Usage
 
