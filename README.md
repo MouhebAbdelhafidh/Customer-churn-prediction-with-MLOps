@@ -60,14 +60,14 @@ Elasticsearch was used for logging model metrics, and Kibana was set up to visua
 
 ## Usage
 
-1️⃣ Download wsl (Windows Systemfor Linux): wsl --install
-2️⃣ Install ubuntu in the wsl: wsl -d Ubuntu-20.04 
-3️⃣ Run:  sudo apt update && sudo apt upgrade -y
-4️⃣ Install Python 3, pip and virtualenv: sudo apt install python3 python3-pip -y 
-sudo apt install python3-virtualenv
-5️⃣ Clone this repository inside the Ubuntu
-6️⃣ Create virtual environnment: virtualenv venv
-7️⃣ Activate the virtual invironnment:  source venv/bin/activate
-8️⃣ Add execution permissions to the virtual environnment:  chmod +x venv/bin/activate
-9️⃣ Run: make help 
-🔟 Enjoy the trip
+1️⃣ Download wsl (Windows Systemfor Linux): wsl --install <br>
+2️⃣ Install ubuntu in the wsl: wsl -d Ubuntu-20.04 <br>
+3️⃣ Run:  sudo apt update && sudo apt upgrade -y <br>
+4️⃣ Install Python 3, pip and virtualenv: sudo apt install python3 python3-pip -y <br>
+sudo apt install python3-virtualenv <br>
+5️⃣ Clone this repository inside the Ubuntu <br>
+6️⃣ Create virtual environnment: virtualenv venv <br>
+7️⃣ Activate the virtual invironnment:  source venv/bin/activate <br>
+8️⃣ Add execution permissions to the virtual environnment:  chmod +x venv/bin/activate <br>
+9️⃣ Run: make help <br>
+🔟 Enjoy the trip <br>
