@@ -1,5 +1,6 @@
-<h1 align="center">🤖Customer Churn MLOps Pipeline🤖</h1>
+<h1 align="center">🤖Customer Churn MLOps Pipeline</h1>
 
+Customer Churn MLOps Pipeline
 This project implements an end-to-end MLOps pipeline for customer churn prediction (Random forest model).
 
 # 📋Table of Content
@@ -47,4 +48,26 @@ The model and its dependencies were containerized using Docker, ensuring that th
 MLFlow artifacts were used to store and track important model outputs.
 Elasticsearch was used for logging model metrics, and Kibana was set up to visualize and monitor these logs, ensuring model performance is continuously tracked.
 
+## Technologies Used
 
+🔬Python (for machine learning and pipeline implementation)
+🔬Pytest (for unit testing)
+🔬FastAPI (for model deployment)
+🔬Docker (for containerization)
+🔬Airflow (for task scheduling and automation)
+🔬MLFlow (for experiment tracking and monitoring)
+🔬Elasticsearch & Kibana (for logging and monitoring metrics)
+
+## Usage
+
+1️⃣ Download wsl (Windows Systemfor Linux): wsl --install
+2️⃣ Install ubuntu in the wsl: wsl -d Ubuntu-20.04 
+3️⃣ Run:  sudo apt update && sudo apt upgrade -y
+4️⃣ Install Python 3, pip and virtualenv: sudo apt install python3 python3-pip -y 
+sudo apt install python3-virtualenv
+5️⃣ Clone this repository inside the Ubuntu
+6️⃣ Create virtual environnment: virtualenv venv
+7️⃣ Activate the virtual invironnment:  source venv/bin/activate
+8️⃣ Add execution permissions to the virtual environnment:  chmod +x venv/bin/activate
+9️⃣ Run: make help 
+🔟 Enjoy the trip
